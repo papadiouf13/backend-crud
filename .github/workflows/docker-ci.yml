@@ -3,7 +3,7 @@ name: Docker Build & Push CI
 on:
   push:
     branches:
-      - main
+      - master
 
 env:
   DOCKER_IMAGE: ${{ secrets.DOCKER_USERNAME }}/backend-crud
